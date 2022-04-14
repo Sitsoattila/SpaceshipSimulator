@@ -1,7 +1,7 @@
 public class SpaceShip {
-    private String nombre;
-    private String matriculaGalactica;
-    private float aceleracion;
+    public String nombre;
+    public String matriculaGalactica;
+    public float aceleracion;
     private float velocidadX;
     private float velocidadY;
     private float coordenadaX;
@@ -96,6 +96,12 @@ public class SpaceShip {
     public void speedUp(){
         velocidadX = velocidadX + aceleracion;
         coordenadaX = coordenadaX + velocidadX;
+    }
+
+    public void brake(){
+        velocidadX = velocidadX - aceleracion;
+        coordenadaX = coordenadaX - velocidadX;
+
     }
 
     @Override
