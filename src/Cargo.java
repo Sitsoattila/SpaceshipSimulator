@@ -29,4 +29,10 @@ public class Cargo extends SpaceShip{
             }
         }
     }
+
+    public void unload(){
+        for (int i = 0; i >= CARGA_MAXIMA; i++ ){
+
+        }
+    }
 }
