@@ -104,6 +104,11 @@ public class SpaceShip {
 
     }
 
+    public void emergencyStop(){
+        velocidadX = 0;
+        coordenadaX = coordenadaX;
+    }
+
 
 
     @Override
