@@ -30,7 +30,7 @@ public class AstilleroEspacial {
                  + "\n" + "Aceleración: " + nuevaNave.aceleracion);
          System.out.println("");
 
-         while(mostrarMenu = true){
+         while(mostrarMenu){
              System.out.println("-----------------------------------------");
              System.out.println("Seleccione que acción hacer con " + nuevaNave.nombre);
              System.out.println("-----------------------------------------");
@@ -71,7 +71,8 @@ public class AstilleroEspacial {
                      break;
 
                  case 5:
-                     System.out.println("Hasta su próxima visita");
+                     System.out.println("Probando load");
+
                      break;
 
                  default:
@@ -80,7 +81,5 @@ public class AstilleroEspacial {
 
              }
          }
-
-
      }
 }
